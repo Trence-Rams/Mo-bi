@@ -6,8 +6,9 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
+API_KEY = process.env.EXPO_PUBLIC_API_KEY;
 const firebaseConfig = {
-  apiKey: "AIzaSyCsb_OV5rmV2y6NlOU4XAh5CzEEYy41VTU",
+  apiKey: API_KEY,
   authDomain: "ecommerce-bff44.firebaseapp.com",
   projectId: "ecommerce-bff44",
   storageBucket: "ecommerce-bff44.appspot.com",
